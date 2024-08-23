@@ -13,6 +13,8 @@
 		BA989C9F2C785FF2009C5F04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA989C9D2C785FF2009C5F04 /* Main.storyboard */; };
 		BA989CA12C785FF5009C5F04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA989CA02C785FF5009C5F04 /* Assets.xcassets */; };
 		BA989CA42C785FF5009C5F04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA989CA22C785FF5009C5F04 /* LaunchScreen.storyboard */; };
+		BAAAF13B2C7877950025ACAE /* SelectLanguageScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAAF1392C7877950025ACAE /* SelectLanguageScreen.swift */; };
+		BAAAF13C2C7877950025ACAE /* SelectLanguageScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAAAF13A2C7877950025ACAE /* SelectLanguageScreen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		BA989CA02C785FF5009C5F04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA989CA32C785FF5009C5F04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA989CA52C785FF5009C5F04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAAAF1392C7877950025ACAE /* SelectLanguageScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLanguageScreen.swift; sourceTree = "<group>"; };
+		BAAAF13A2C7877950025ACAE /* SelectLanguageScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectLanguageScreen.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				BA989CA02C785FF5009C5F04 /* Assets.xcassets */,
 				BA989CA22C785FF5009C5F04 /* LaunchScreen.storyboard */,
 				BA989CA52C785FF5009C5F04 /* Info.plist */,
+				BAAAF1392C7877950025ACAE /* SelectLanguageScreen.swift */,
+				BAAAF13A2C7877950025ACAE /* SelectLanguageScreen.xib */,
 			);
 			path = LeagleApp;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA989CA42C785FF5009C5F04 /* LaunchScreen.storyboard in Resources */,
+				BAAAF13C2C7877950025ACAE /* SelectLanguageScreen.xib in Resources */,
 				BA989CA12C785FF5009C5F04 /* Assets.xcassets in Resources */,
 				BA989C9F2C785FF2009C5F04 /* Main.storyboard in Resources */,
 			);
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA989C9C2C785FF2009C5F04 /* ViewController.swift in Sources */,
+				BAAAF13B2C7877950025ACAE /* SelectLanguageScreen.swift in Sources */,
 				BA989C982C785FF2009C5F04 /* AppDelegate.swift in Sources */,
 				BA989C9A2C785FF2009C5F04 /* SceneDelegate.swift in Sources */,
 			);
